@@ -1,0 +1,18 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript テスト</title>
+</head>
+<body>
+    <h1 id="greeting">こんにちは！</h1>
+    <button id="changeText">テキストを変更かもね</button>
+
+    <script>
+        document.getElementById('changeText').addEventListener('click', function() {
+            document.getElementById('greeting').textContent = 'JavaScriptが動いています！';
+        });
+    </script>
+</body>
+</html>
